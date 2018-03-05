@@ -2,3 +2,8 @@ node_modules
 npm-debug.log
 bin/
 data-share/
+<<<<<<< HEAD
+=======
+.gitigore
+commit-file
+>>>>>>> 08b4148f7a86ba4d3cd496e48469ba6cf82afc3e
