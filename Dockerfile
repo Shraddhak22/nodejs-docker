@@ -12,8 +12,12 @@ RUN npm install
 # If you are building your code for production
 # RUN npm install --only=production
 
+## ADD NodeMonitor which see all updates
+## https://nodemon.io/
+RUN npm install -g nodemon --save
+
 # Bundle app source
 COPY . .
 
 EXPOSE 8080
-CMD [ "npm", "start" ]
+CMD [ "nodemon", "server" ]
