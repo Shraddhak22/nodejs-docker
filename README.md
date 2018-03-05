@@ -11,6 +11,7 @@ $ docker build -t <your username>/node-web-app .
 Running your image with -d runs the container in detached mode, leaving the container running in the background. The -p flag redirects a public port to a private port inside the container. Run the image you previously built:
 
 $ docker run -p 49160:8080 -d <your username>/node-web-app
+or if you use it locally  $ docker run -p 49160:8080 -d node-web-app
 
 next :  https://nodemon.io/
 npm install -g nodemon
