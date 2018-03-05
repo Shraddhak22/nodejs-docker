@@ -1,3 +1,3 @@
 #/bin/bash
-git checkput node-dev
+git checkout node-dev
 git push origin node-dev
