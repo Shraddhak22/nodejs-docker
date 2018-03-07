@@ -12,6 +12,9 @@ RUN npm install
 # If you are building your code for production
 # RUN npm install --only=production
 
+VOLUME ["/data/vol1"]
+VOLUME ["/data/vol2"]
+
 # Bundle app source
 COPY . .
 
